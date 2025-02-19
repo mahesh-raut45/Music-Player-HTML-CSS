@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <script src="https://kit.fontawesome.com/a5a8612e82.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/CSS/index-styles.CSS">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo-name">
+                <img class="logo" src="/Icons/spotify.png" alt="spotify logo">
+                <p class="name">Ninja <b>Studio</b></p>
+            </div>
+            <div class="favourites">
+                <p>Favourites</p>
+            </div>
+            <div class="search">
+                <div class="search-box">
+                    <div class="icon-search">
+                        <img id="search-icon" src="/Icons/search.svg" alt="search icon">
+                        <input type="text" placeholder="Search">
+                    </div>
+                    <div class="mic-icon">
+                        <img id="mic-icon" src="/Icons/mic.svg" alt="mic icon">
+                    </div>
+                </div>
+            </div>
+            <div class="notifiaction">
+                <img class="notifiaction-icon" src="/Icons/bell-regular.svg" alt="">
+            </div>
+            <div class="profile">
+                <img class="profile-img" src="/Images/profile.jpg" alt="profile image">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- code for carousel divs -->
+        <div class="carousel-div">
+            <div class="slider">
+                <input type="radio" name="testimonial" id="t-1">
+                <input type="radio" name="testimonial" id="t-2">
+                <input type="radio" name="testimonial" id="t-3" checked>
+                <input type="radio" name="testimonial" id="t-4">
+                <input type="radio" name="testimonial" id="t-5">
+                <div class="testimonials">
+                    <label class="item" for="t-1">
+                        <img class="concert-img" src="/Images/Arijit Singh.jpg" alt="">
+                    </label>
+                    <label class="item" for="t-2">
+                        <img class="concert-img" src="/Images/Sid sriram Hd image.jpg" alt="">
+                    </label>
+                    <label class="item" for="t-3">
+                        <img class="concert-img" src="/Images/Shreya Ghoshal.jpg" alt="">
+                    </label>
+                    <label class="item" for="t-4">
+                        <img class="concert-img" src="/Images/atif aslam.jpg" alt="">
+                    </label>
+                    <label class="item" for="t-5">
+                        <img class="concert-img" src="/Images/kk.jpg" alt="">
+                    </label>
+                </div>
+                <br />
+            </div>
+        </div>
+
+        <div class="latest-release-div">
+            <h3 class="text">Latest Release</h3>
+            <div class="latest-song">
+                <div class="song-info">
+                    <div class="song-img-and-name">
+                        <div class="song-img-container">
+                            <img class="song-img" src="/Images/bulleya.jpg" alt="song image">
+                        </div>
+                        <div class="play-btn-container">
+                            <a href="#bottom-song-container"><img class="play-btn" src="/Icons/play-button.png"
+                                    alt="pla btn"></a>
+                        </div>
+                        <p class="song-name text">Bulleya</p>
+                        <p class="date"><span>28 October 2016</span></p>
+                    </div>
+                    <div class="menu-btn">
+                        <a href="#nav-vertical"><img class="heading-icon" src="/Icons/ellipsis-solid.svg"
+                                alt="menu bar icon"></a>
+                        <nav id="nav-vertical" class="nav-section menubar-nav">
+                            <ul class="vertical-list">
+                                <li><a href="">Play Now</a></li>
+                                <li> <a href="">Add to Playlist</a></li>
+                                <li> <a href="">Add to Favourites</a></li>
+                                <li> <a href="">Get Info</a></li>
+                            </ul>
+                        </nav>
+
+                        <div class="song-duration">
+                            <p><span>4:58</span></p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="song-info">
+                    <div class="song-img-and-name">
+                        <div class="song-img-container">
+                            <img class="song-img" src="/Images/bulleya.jpg" alt="song image">
+                        </div>
+                        <div class="play-btn-container">
+                            <a href="#bottom-song-container"><img class="play-btn" src="/Icons/play-button.png"
+                                    alt="pla btn"></a>
+                        </div>
+                        <p class="song-name text">Bulleya</p>
+                        <p class="date"><span>28 October 2016</span></p>
+                    </div>
+                    <div class="menu-btn">
+                        <a href="#nav-vertical"><img class="heading-icon" src="/Icons/ellipsis-solid.svg"
+                                alt="menu bar icon"></a>
+                        <nav id="nav-vertical" class="nav-section menubar-nav">
+                            <ul class="vertical-list">
+                                <li><a href="">Play Now</a></li>
+                                <li> <a href="">Add to Playlist</a></li>
+                                <li> <a href="">Add to Favourites</a></li>
+                                <li> <a href="">Get Info</a></li>
+                            </ul>
+                        </nav>
+
+                        <div class="song-duration">
+                            <p><span>4:58</span></p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="song-info">
+                    <div class="song-img-and-name">
+                        <div class="song-img-container">
+                            <img class="song-img" src="/Images/bulleya.jpg" alt="song image">
+                        </div>
+                        <div class="play-btn-container">
+                            <a href="#bottom-song-container"><img class="play-btn" src="/Icons/play-button.png"
+                                    alt="pla btn"></a>
+                        </div>
+                        <p class="song-name text">Bulleya</p>
+                        <p class="date"><span>28 October 2016</span></p>
+                    </div>
+                    <div class="menu-btn">
+                        <a href="#nav-vertical"><img class="heading-icon" src="/Icons/ellipsis-solid.svg"
+                                alt="menu bar icon"></a>
+                        <nav id="nav-vertical" class="nav-section menubar-nav">
+                            <ul class="vertical-list">
+                                <li><a href="">Play Now</a></li>
+                                <li> <a href="">Add to Playlist</a></li>
+                                <li> <a href="">Add to Favourites</a></li>
+                                <li> <a href="">Get Info</a></li>
+                            </ul>
+                        </nav>
+
+                        <div class="song-duration">
+                            <p><span>4:58</span></p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="song-info">
+                    <div class="song-img-and-name">
+                        <div class="song-img-container">
+                            <img class="song-img" src="/Images/bulleya.jpg" alt="song image">
+                        </div>
+                        <div class="play-btn-container">
+                            <a href="#bottom-song-container"><img class="play-btn" src="/Icons/play-button.png"
+                                    alt="pla btn"></a>
+                        </div>
+                        <p class="song-name text">Bulleya</p>
+                        <p class="date"><span>28 October 2016</span></p>
+                    </div>
+                    <div class="menu-btn">
+                        <a href="#nav-vertical"><img class="heading-icon" src="/Icons/ellipsis-solid.svg"
+                                alt="menu bar icon"></a>
+                        <nav id="nav-vertical" class="nav-section menubar-nav">
+                            <ul class="vertical-list">
+                                <li><a href="">Play Now</a></li>
+                                <li> <a href="">Add to Playlist</a></li>
+                                <li> <a href="">Add to Favourites</a></li>
+                                <li> <a href="">Get Info</a></li>
+                            </ul>
+                        </nav>
+
+
+                        <div class="song-duration">
+                            <p><span>4:58</span></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div>
+            <h3 class="text">Latest Release</h3>
+            <div class="popular-artist">
+                <div class="artist">
+                    <a href="/HTML/singlePlaylist.html" target="_blank">
+                        <img src="/Images/arijit_closeup.jpg" alt="arijit_closeup">
+                    </a> <!--added single playlist only for 1st artist      -->
+                </div>
+                <div class="artist">
+                    <img src="/Images/kk_closeup.jpg" alt="kk_closeup">
+                </div>
+                <div class="artist">
+                    <img src="/Images/sonu_closeup.jpg" alt="sonu_closeup">
+                </div>
+                <div class="artist">
+                    <img src="/Images/shreya_closeup.jpg" alt="shreya_closeup">
+                </div>
+                <div class="artist">
+                    <img src="/Images/kumar_closeup.jpg" alt="kumar_closeup">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="song-categories">
+            <div class="category">
+                <img src="/Images/sad.jpg" alt="">
+                <p class="song-categories-text">Stations</p>
+            </div>
+            <div class="category">
+                <img src="/Images/love.jpg" alt="">
+                <p class="song-categories-text">Love</p>
+            </div>
+            <div class="category">
+                <img src="/Images/retro.jpg" alt="">
+                <p class="song-categories-text">Retro</p>
+            </div>
+            <div class="category">
+                <img src="/Images/chill.jpg" alt="">
+                <p class="song-categories-text">Chill</p>
+            </div>
+            <div class="category">
+                <img src="/Images/workout.jpg" alt="">
+                <p class="song-categories-text">Workout</p>
+            </div>
+            <div class="category">
+                <img src="/Images/rock.jpg" alt="">
+                <p class="song-categories-text">Rock</p>
+            </div>
+            <div class="category">
+                <img src="/Images/pop.jpg" alt="">
+                <p class="song-categories-text">Pop</p>
+            </div>
+
+        </div>
+        <div class="party-electronic-roadtrip">
+            <div class="party beats">
+                <img src="/Images/pop.jpg" alt="party img">
+                <p class="song-categories-text">Party</p>
+            </div>
+            <div class="electronic beats">
+                <img src="/Images/electronic.jpg" alt="electronic music img">
+                <p class="song-categories-text">Elctronic</p>
+            </div>
+            <div class="roadtrip beats">
+                <img src="/Images/road-trip.jpg" alt="road trip img">
+                <p class="song-categories-text">Road Trip</p>
+            </div>
+        </div>
+        <div class="latest-hindi-englis-songs">
+            <h3 class="text">Latest Hindi</h3>
+            <div class="hindi-english-songs">
+                <div class="six-songs">
+                    <img class="latest-song-img" src="/Images/apna-bana-le.jpg" alt="hindi song">
+                    <p class="text">Apna Bana Le</p>
+                    <p><span>song date</span></p>
+                </div>
+                <div class="six-songs">
+                    <img class="latest-song-img" src="/Images/latest song.jpg" alt="hindi song">
+                    <p class="text">song Name</p>
+                    <p><span>song date</span></p>
+                </div>
+                <div class="six-songs">
+                    <img class="latest-song-img" src="/Images/dear-comrade.jpg" alt="hindi song">
+                    <p class="text">Dear Comrade</p>
+                    <p><span>song date</span></p>
+                </div>
+                <div class="six-songs">
+                    <img class="latest-song-img" src="/Images/latest song.jpg" alt="hindi song">
+                    <p class="text">song Name</p>
+                    <p><span>song date</span></p>
+                </div>
+                <div class="six-songs">
+                    <img class="latest-song-img" src="/Images/apna-bana-le.jpg" alt="hindi song">
+                    <p class="text">song Name</p>
+                    <p><span>song date</span></p>
+                </div>
+                <div class="six-songs">
+                    <img class="latest-song-img" src="/Images/dear-comrade.jpg" alt="hindi song">
+                    <p class="text">Dear Comrade</p>
+                    <p><span>song date</span></p>
+                </div>
+            </div>
+
+        </div>
+        <div class="latest-hindi-englis-songs">
+            <h3 class="text">Latest English</h3>
+            <div class="hindi-english-songs">
+                <div class="six-songs">
+                    <img class="latest-song-img" src="/Images/dear-comrade.jpg" alt="hindi song">
+                    <p class="text">Dear Comrade</p>
+                    <p><span>song date</span></p>
+                </div>
+                <div class="six-songs">
+                    <img class="latest-song-img" src="/Images/latest song.jpg" alt="hindi song">
+                    <p class="text">sAnimal</p>
+                    <p><span>song date</span></p>
+                </div>
+                <div class="six-songs">
+                    <img class="latest-song-img" src="/Images/apna-bana-le.jpg" alt="hindi song">
+                    <p class="text">Apna Bana Le</p>
+                    <p><span>song date</span></p>
+                </div>
+                <div class="six-songs">
+                    <img class="latest-song-img" src="/Images/dear-comrade.jpg" alt="hindi song">
+                    <p class="text">song Name</p>
+                    <p><span>song date</span></p>
+                </div>
+                <div class="six-songs">
+                    <img class="latest-song-img" src="/Images/arijit.jpg" alt="hindi song">
+                    <p class="text">song Name</p>
+                    <p><span>song date</span></p>
+                </div>
+                <div class="six-songs">
+                    <img class="latest-song-img" src="/Images/apna-bana-le.jpg" alt="hindi song">
+                    <p class="text">song Name</p>
+                    <p><span>song date</span></p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <aside>
+
+        <div class="queue">
+            <header class="queue-header">
+                <h2 class="text">Queue</h2>
+                <a href="#queue-list">Queue &nbsp;<span class="down-arrow">&gt;</span></a>
+                <div>
+                    <ul id="queue-list" class="queue-list">
+                        <li><a href="#myplaylist">Playlist</a></li>
+                        <li><a href="#">Favourite Songs</a></li>
+                    </ul>
+                </div>
+            </header>
+            <!--#region  -->
+            <div class="queue-song-container">
+                <div class="song-no">
+                    <img src="/Icons/wave.png" alt="wave png">
+                </div>
+                <div class="que-song-img">
+                    <img src="/Images/bulleya.jpg" alt="song img">
+                </div>
+                <div class="que-song-name-singer">
+                    <div class="que-song-name">Bulleya</div>
+                    <div class="que-singer"><span>pritam,arijit</span></div>
+                </div>
+                <div class="favourite-icon">
+                    <img src="/Icons/heart-solid.svg" alt="heart icon">
+                </div>
+            </div>
+            <div class="queue-song-container">
+                <div class="song-no">
+                    <p>01</p>
+                </div>
+                <div class="que-song-img">
+                    <img src="/Images/bulleya.jpg" alt="song img">
+                </div>
+                <div class="que-song-name-singer">
+                    <div class="que-song-name">Bulleya</div>
+                    <div class="que-singer"><span>pritam,arijit</span></div>
+                </div>
+                <div class="favourite-icon">
+                    <img src="/Icons/heart-solid.svg" alt="heart icon">
+                </div>
+            </div>
+            <div class="queue-song-container">
+                <div class="song-no">
+                    <p>41</p>
+                </div>
+                <div class="que-song-img">
+                    <img src="/Images/bulleya.jpg" alt="song img">
+                </div>
+                <div class="que-song-name-singer">
+                    <div class="que-song-name">Bulleya</div>
+                    <div class="que-singer"><span>pritam,arijit</span></div>
+                </div>
+                <div class="favourite-icon">
+                    <img src="/Icons/heart-solid.svg" alt="heart icon">
+                </div>
+            </div>
+            <div class="queue-song-container">
+                <div class="song-no">
+                    <p>05</p>
+                </div>
+                <div class="que-song-img">
+                    <img src="/Images/bulleya.jpg" alt="song img">
+                </div>
+                <div class="que-song-name-singer">
+                    <div class="que-song-name">Bulleya</div>
+                    <div class="que-singer"><span>pritam,arijit</span></div>
+                </div>
+                <div class="favourite-icon">
+                    <img src="/Icons/heart-solid.svg" alt="heart icon">
+                </div>
+            </div>
+            <div class="queue-song-container">
+                <div class="song-no">
+                    <p>09</p>
+                </div>
+                <div class="que-song-img">
+                    <img src="/Images/bulleya.jpg" alt="song img">
+                </div>
+                <div class="que-song-name-singer">
+                    <div class="que-song-name">Bulleya</div>
+                    <div class="que-singer"><span>pritam,arijit</span></div>
+                </div>
+                <div class="favourite-icon">
+                    <img src="/Icons/heart-solid.svg" alt="heart icon">
+                </div>
+            </div>
+            <div class="queue-song-container">
+                <div class="song-no">
+                    <p>45</p>
+                </div>
+                <div class="que-song-img">
+                    <img src="/Images/bulleya.jpg" alt="song img">
+                </div>
+                <div class="que-song-name-singer">
+                    <div class="que-song-name">Bulleya</div>
+                    <div class="que-singer"><span>pritam,arijit</span></div>
+                </div>
+                <div class="favourite-icon">
+                    <img src="/Icons/heart-solid.svg" alt="heart icon">
+                </div>
+            </div>
+            <div class="queue-song-container">
+                <div class="song-no">
+                    <p>39</p>
+                </div>
+                <div class="que-song-img">
+                    <img src="/Images/bulleya.jpg" alt="song img">
+                </div>
+                <div class="que-song-name-singer">
+                    <div class="que-song-name">Bulleya</div>
+                    <div class="que-singer"><span>pritam,arijit</span></div>
+                </div>
+                <div class="favourite-icon">
+                    <img src="/Icons/heart-solid.svg" alt="heart icon">
+                </div>
+            </div>
+            <div class="queue-song-container">
+                <div class="song-no">
+                    <p>22</p>
+                </div>
+                <div class="que-song-img">
+                    <img src="/Images/bulleya.jpg" alt="song img">
+                </div>
+                <div class="que-song-name-singer">
+                    <div class="que-song-name">Bulleya</div>
+                    <div class="que-singer"><span>pritam,arijit</span></div>
+                </div>
+                <div class="favourite-icon">
+                    <img src="/Icons/heart-solid.svg" alt="heart icon">
+                </div>
+            </div>
+            <div class="queue-song-container">
+                <div class="song-no">
+                    <p>19</p>
+                </div>
+                <div class="que-song-img">
+                    <img src="/Images/bulleya.jpg" alt="song img">
+                </div>
+                <div class="que-song-name-singer">
+                    <div class="que-song-name">Bulleya</div>
+                    <div class="que-singer"><span>pritam,arijit</span></div>
+                </div>
+                <div class="favourite-icon">
+                    <img src="/Icons/heart-solid.svg" alt="heart icon">
+                </div>
+            </div>
+            <div class="queue-song-container">
+                <div class="song-no">
+                    <p>23</p>
+                </div>
+                <div class="que-song-img">
+                    <img src="/Images/bulleya.jpg" alt="song img">
+                </div>
+                <div class="que-song-name-singer">
+                    <div class="que-song-name">Bulleya</div>
+                    <div class="que-singer"><span>pritam,arijit</span></div>
+                </div>
+                <div class="favourite-icon">
+                    <img src="/Icons/heart-solid.svg" alt="heart icon">
+                </div>
+            </div>
+            <!--#endregion -->
+
+        </div>
+        <div id="myplaylist" class="myplaylist ">
+            <header class="queue-header">
+                <h2 class="text">My Playlist</h2>
+                <!-- <label for="queues">Queue</label> -->
+                <!-- <a href="#queues" >hi</a> -->
+                <!-- <select id="queues" name="queues">
+                        <option value="Queue">Queue</option>
+                        <option value="playlist">Playlist</option>
+                        <option value="favourite-songs">Favourite Songs</option>
+                    </select> -->
+                <!-- <a href="#queue-list">Queue <span class="down-arrow">&gt</span></a>
+                    <div>
+                        <ul id="queue-list" class="queue-list">
+                            <li><a href="#myplaylist">Playlist</a></li>
+                            <li><a href="#">Favourite Songs</a></li>
+                        </ul>
+                    </div> -->
+            </header>
+            <!--#region  -->
+            <div class="queue-song-container">
+                <div class="song-no">
+                    <img src="/Icons/wave.png" alt="wave png">
+                </div>
+                <div class="que-song-img">
+                    <img src="/Images/bulleya.jpg" alt="song img">
+                </div>
+                <div class="que-song-name-singer">
+                    <div class="que-song-name">Bulleya</div>
+                    <div class="que-singer"><span>pritam,arijit</span></div>
+                </div>
+                <div class="favourite-icon">
+                    <img src="/Icons/heart-solid.svg" alt="heart icon">
+                </div>
+            </div>
+            <div class="queue-song-container">
+                <div class="song-no">
+                    <p>01</p>
+                </div>
+                <div class="que-song-img">
+                    <img src="/Images/bulleya.jpg" alt="song img">
+                </div>
+                <div class="que-song-name-singer">
+                    <div class="que-song-name">Bulleya</div>
+                    <div class="que-singer"><span>pritam,arijit</span></div>
+                </div>
+                <div class="favourite-icon">
+                    <img src="/Icons/heart-solid.svg" alt="heart icon">
+                </div>
+            </div>
+            <div class="queue-song-container">
+                <div class="song-no">
+                    <p>41</p>
+                </div>
+                <div class="que-song-img">
+                    <img src="/Images/bulleya.jpg" alt="song img">
+                </div>
+                <div class="que-song-name-singer">
+                    <div class="que-song-name">Bulleya</div>
+                    <div class="que-singer"><span>pritam,arijit</span></div>
+                </div>
+                <div class="favourite-icon">
+                    <img src="/Icons/heart-solid.svg" alt="heart icon">
+                </div>
+            </div>
+            <div class="queue-song-container">
+                <div class="song-no">
+                    <p>05</p>
+                </div>
+                <div class="que-song-img">
+                    <img src="/Images/bulleya.jpg" alt="song img">
+                </div>
+                <div class="que-song-name-singer">
+                    <div class="que-song-name">Bulleya</div>
+                    <div class="que-singer"><span>pritam,arijit</span></div>
+                </div>
+                <div class="favourite-icon">
+                    <img src="/Icons/heart-solid.svg" alt="heart icon">
+                </div>
+            </div>
+            <div class="queue-song-container">
+                <div class="song-no">
+                    <p>09</p>
+                </div>
+                <div class="que-song-img">
+                    <img src="/Images/bulleya.jpg" alt="song img">
+                </div>
+                <div class="que-song-name-singer">
+                    <div class="que-song-name">Bulleya</div>
+                    <div class="que-singer"><span>pritam,arijit</span></div>
+                </div>
+                <div class="favourite-icon">
+                    <img src="/Icons/heart-solid.svg" alt="heart icon">
+                </div>
+            </div>
+            <div class="queue-song-container">
+                <div class="song-no">
+                    <p>45</p>
+                </div>
+                <div class="que-song-img">
+                    <img src="/Images/bulleya.jpg" alt="song img">
+                </div>
+                <div class="que-song-name-singer">
+                    <div class="que-song-name">Bulleya</div>
+                    <div class="que-singer"><span>pritam,arijit</span></div>
+                </div>
+                <div class="favourite-icon">
+                    <img src="/Icons/heart-solid.svg" alt="heart icon">
+                </div>
+            </div>
+            <div class="queue-song-container">
+                <div class="song-no">
+                    <p>39</p>
+                </div>
+                <div class="que-song-img">
+                    <img src="/Images/bulleya.jpg" alt="song img">
+                </div>
+                <div class="que-song-name-singer">
+                    <div class="que-song-name">Bulleya</div>
+                    <div class="que-singer"><span>pritam,arijit</span></div>
+                </div>
+                <div class="favourite-icon">
+                    <img src="/Icons/heart-solid.svg" alt="heart icon">
+                </div>
+            </div>
+            <div class="queue-song-container">
+                <div class="song-no">
+                    <p>22</p>
+                </div>
+                <div class="que-song-img">
+                    <img src="/Images/bulleya.jpg" alt="song img">
+                </div>
+                <div class="que-song-name-singer">
+                    <div class="que-song-name">Bulleya</div>
+                    <div class="que-singer"><span>pritam,arijit</span></div>
+                </div>
+                <div class="favourite-icon">
+                    <img src="/Icons/heart-solid.svg" alt="heart icon">
+                </div>
+            </div>
+            <div class="queue-song-container">
+                <div class="song-no">
+                    <p>19</p>
+                </div>
+                <div class="que-song-img">
+                    <img src="/Images/bulleya.jpg" alt="song img">
+                </div>
+                <div class="que-song-name-singer">
+                    <div class="que-song-name">Bulleya</div>
+                    <div class="que-singer"><span>pritam,arijit</span></div>
+                </div>
+                <div class="favourite-icon">
+                    <img src="/Icons/heart-solid.svg" alt="heart icon">
+                </div>
+            </div>
+            <div class="queue-song-container">
+                <div class="song-no">
+                    <p>23</p>
+                </div>
+                <div class="que-song-img">
+                    <img src="/Images/bulleya.jpg" alt="song img">
+                </div>
+                <div class="que-song-name-singer">
+                    <div class="que-song-name">Bulleya</div>
+                    <div class="que-singer"><span>pritam,arijit</span></div>
+                </div>
+                <div class="favourite-icon">
+                    <img src="/Icons/heart-solid.svg" alt="heart icon">
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <div id="bottom-song-container" class="song-play-container">
+        <div class="song-info-container">
+            <div class="playing-song-img">
+                <img src="/Images/apna-bana-le.jpg" alt="song img">
+            </div>
+            <div class="playing-song-singer-name">
+                <div class="playing-song-name text">Apna Bana Le</div>
+                <div class="singer-name"><span>Arijit, sachin</span></div>
+            </div>
+            <div class="favourite-icon">
+                <img src="/Icons/heart.png" alt="heart icon">
+            </div>
+        </div>
+        <div class="song-controls-container">
+            <div class="song-controls">
+                <div class="shuffle-song">
+                    <img class="music-control-icons" src="/Icons/shuffle.png" alt="shuffle icon">
+                </div>
+                <div class="backward">
+                    <img class="music-control-icons" src="/Icons/backward-arrows-couple.png" alt="backward icon">
+                </div>
+                <div class="play-pause">
+                    <img class="music-control-icons" src="/Icons/pause.png" alt="pause icon">
+                </div>
+                <div class="forward">
+                    <img class="music-control-icons" src="/Icons/fast-forward.png" alt="forward icon">
+                </div>
+                <div class="repeate-song">
+                    <img class="music-control-icons" src="/Icons/repeat.png" alt="repeat icon">
+                </div>
+            </div>
+            <div class="song-playing-bar">
+                <div>1:30</div>
+                <progress class="song-progress-bar" value="32" max="100"> 32% </progress>
+                <div>5:00</div>
+            </div>
+        </div>
+        <div class="volume-container">
+            <div class="song-list">
+                <img class="music-control-icons" src="/Icons/add-to-playlist.png" alt="">
+            </div>
+            <div class="spekers">
+                <img class="music-control-icons" src="/Icons/speaker.png" alt="">
+            </div>
+            <div class="volume">
+                <img class="music-control-icons" src="/Icons/volume.png" alt="">
+
+            </div>
+            <div>
+                <progress value="32" max="100"> 32% </progress>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
